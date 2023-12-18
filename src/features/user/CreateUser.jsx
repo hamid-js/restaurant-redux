@@ -19,7 +19,7 @@ function CreateUser() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <p className="mb-4 text-sm text-stone-600 md:text-base">
+      <p className="mb-10 text-sm text-stone-700 md:text-base">
          خوش اومدی! لطفا با وارد کردن اسم خودت شروع کن👋
       </p>
 
