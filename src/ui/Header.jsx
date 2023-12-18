@@ -9,7 +9,7 @@ function Header() {
         رستوران خوش طعم
       </Link>
         <SearchOrder />
-      <Username />
+    {Username &&  <Username />}
     </header>
   );
 }
