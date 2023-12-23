@@ -1,7 +1,7 @@
 # Khosh taam Restaurant
 
 Welcome to the Khosh taam Restaurant Project, a dynamic web application built with React.js, React Router, Redux, API integration for data retrieval, and styled using Tailwind CSS.
-
+[click & show](hamid-restaurant.vercel.app)
 
 ## Overview
 
@@ -23,5 +23,3 @@ The Restaurant Project is a modern web application designed to showcase a restau
 - **Axios (or Fetch API):** Used for making HTTP requests to connect with the backend API and retrieve data.
 - **Tailwind CSS:** Styling framework for building modern and responsive UIs.
 - **Backend API (Node.js, Express, etc.):** Provides read-only data for the frontend.
-
-
