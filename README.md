@@ -1,7 +1,7 @@
 # Khosh taam Restaurant
 
 Welcome to the Khosh taam Restaurant Project, a dynamic web application built with React.js, React Router, Redux, API integration for data retrieval, and styled using Tailwind CSS.
-[click & show](hamid-restaurant.vercel.app)
+[click & show](https://hamid-restaurant.vercel.app)
 
 ## Overview
 
