@@ -4,9 +4,9 @@ import Username from '../features/user/Username';
 
 function Header() {
   return (
-    <header className="uppercasr flex items-center justify-between border-b border-stone-200 bg-orange-300 px-4 py-3">
+    <header className="uppercasr flex items-center justify-between border-b border-stone-200 bg-orange-400 px-4 py-3">
       <Link to="/" className="-tracking-widest">
-        رستوران خوش طعم
+      🥙 رستوران خوش طعم 🍢
       </Link>
         <SearchOrder />
     <Username />

@@ -21,22 +21,22 @@ function MenuItem({ pizza }) {
     dispatch(addItem(newItem));
   }
   return (
-    <li className="items-center justify-between flex gap-20 py-2">
+    <li className="items-center justify-between flex gap-4 lg:gap-20 py-2">
       <img
         src={imageUrl}
         alt={name}
         className={`h-24  ${soldOut ? 'opacity-70 grayscale ' : ''}`}
       />
-      <div className="flex grow flex-col pt-0.5">
-        <p className="font-medium">{name}</p>
+      <div className="flex flex-wrap grow flex-col pt-0.5">
+        <p className="font-medium text-sm md:text-xl">{name}</p>
         <p className="text-sm capitalize italic text-stone-500">
           {ingredients.join(', ')}
         </p>
-        <div className="my-5 flex items-center justify-between mx-6 ">
+        <div className="my-5 flex items-center justify-between  ">
           {!soldOut ? (
-            <p className="text-xl">{formatCurrency(unitPrice)}</p>
+            <p className="text-sm first-line: md:text-xl">{formatCurrency(unitPrice)}</p>
           ) : (
-            <p className="text-xl font-medium uppercase text-stone-800">
+            <p className="text-sm md:text-xl font-medium uppercase text-stone-800">
               ناموجود
             </p>
           )}
